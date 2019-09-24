@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="qaacademy.Listners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="qaacademy.ValidateText">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="validatetextInmainpage"/>
+        </methods>
+      </class> <!-- qaacademy.ValidateText -->
+      <class name="qaacademy.ValidateNavbar">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- qaacademy.ValidateNavbar -->
+      <class name="qaacademy.Homepage">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- qaacademy.Homepage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

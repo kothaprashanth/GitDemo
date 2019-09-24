@@ -1,0 +1,5 @@
+pageObjects\LandingPage.class
+pageObjects\LoginPage.class
+qaacademy\App.class
+resources\Base.class
+resources\ExtentReporterNG.class

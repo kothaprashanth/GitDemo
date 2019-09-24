@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-09-10T14:51:04 ICT" name="Suite" finished-at="2019-09-10T14:51:38 ICT" duration-ms="33893">
+    <groups>
+    </groups>
+    <test started-at="2019-09-10T14:51:04 ICT" name="Test" finished-at="2019-09-10T14:51:38 ICT" duration-ms="33893">
+      <class name="qaacademy.ValidateNavbar">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:qaacademy.ValidateNavbar@16e7dcfd]" started-at="2019-09-10T14:51:31 ICT" name="initialize" finished-at="2019-09-10T14:51:37 ICT" duration-ms="5987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:qaacademy.ValidateNavbar@16e7dcfd]" started-at="2019-09-10T14:51:37 ICT" name="basePageNavigation" finished-at="2019-09-10T14:51:38 ICT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qaacademy.ValidateNavbar@16e7dcfd]" started-at="2019-09-10T14:51:38 ICT" name="teardown" finished-at="2019-09-10T14:51:38 ICT" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- qaacademy.ValidateNavbar -->
+      <class name="qaacademy.ValidateText">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:qaacademy.ValidateText@222114ba]" started-at="2019-09-10T14:51:26 ICT" name="initialize" finished-at="2019-09-10T14:51:31 ICT" duration-ms="5514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:qaacademy.ValidateText@222114ba]" started-at="2019-09-10T14:51:31 ICT" name="basePageNavigation" finished-at="2019-09-10T14:51:31 ICT" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qaacademy.ValidateText@222114ba]" started-at="2019-09-10T14:51:31 ICT" name="teardown" finished-at="2019-09-10T14:51:31 ICT" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- qaacademy.ValidateText -->
+      <class name="qaacademy.Homepage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:qaacademy.Homepage@60dcc9fe]" started-at="2019-09-10T14:51:04 ICT" name="initialize" finished-at="2019-09-10T14:51:08 ICT" duration-ms="4071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:qaacademy.Homepage@60dcc9fe]" started-at="2019-09-10T14:51:08 ICT" name="basePageNavigation" data-provider="getdata" finished-at="2019-09-10T14:51:19 ICT" duration-ms="11128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Unrestricted@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Unrestricted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:qaacademy.Homepage@60dcc9fe]" started-at="2019-09-10T14:51:19 ICT" name="basePageNavigation" data-provider="getdata" finished-at="2019-09-10T14:51:25 ICT" duration-ms="6224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:qaacademy.Homepage@60dcc9fe]" started-at="2019-09-10T14:51:25 ICT" name="teardown" finished-at="2019-09-10T14:51:26 ICT" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- qaacademy.Homepage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
