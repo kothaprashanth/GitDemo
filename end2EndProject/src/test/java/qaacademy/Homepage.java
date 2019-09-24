@@ -43,7 +43,7 @@ public class Homepage extends Base {
 		System.out.println(txt);
 		l1.getsignin().click();
 		log.info("Submit is clicked");
-		
+		log.info("Good");
 	}
 	
 	@DataProvider
